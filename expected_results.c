@@ -1,12 +1,14 @@
 /**
 
+
 This file contains the expected results you should aim for when you run main.c against your printf function.  
 
 They constitute test cases, including edge cases for printf.  
 
 Run your code with  gcc -Wall -Werror -Wextra -Wno-format -pedantic -std=gnu89 *.c && ./a.out  
 
-Here are the results:  
+Here are the results:
+
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
 Len:[39]

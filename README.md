@@ -1,5 +1,5 @@
 The printf test cases are in the main.c file.  
-Test results are in expected_results.md file.  
+Test results are in expected_results.c file.  
 
 The expected results are what you should aim for as you test your printf function.  
 
