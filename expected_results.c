@@ -73,6 +73,29 @@ len from NULL string: 4
 
 len from outright null: -1
 len from outright null: -1
+
+TESTS FOR DIGITS
+
+0
+0
+len from zero:2
+len from zero:2
+0
+0
+len from null digit:2
+len from null digit:2
+-2147483648
+-2147483648
+len from int min:12
+len from int min:12
+2147483647
+2147483647
+len from int max:11
+len from int max:11
+;
+;
+len from m string:2
+len from m string:2
 (null) // Null will be the right behaviour according to glibc
 Segmentation fault (core dumped) // On some system architectures, mine for example, you get a seg fault 
 
